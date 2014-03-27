@@ -2,11 +2,7 @@ RheakawIs::Application.routes.draw do
 
   root to: "home#index"
 
-<<<<<<< HEAD
-  match '/available' => 'pages#resume'
-=======
   get "/resume" => "resume#index"
->>>>>>> 95c024973ce9b0ba6b810b89140d4310746f3174
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
